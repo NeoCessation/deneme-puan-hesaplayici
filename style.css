@@ -1,0 +1,17 @@
+.calculator-table th {
+    background-color: #fea330;
+    color: white;
+}
+
+.result-box {
+    background-color: #e41f28;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .mobile-hidden {
+        display: none;
+    }
+}
