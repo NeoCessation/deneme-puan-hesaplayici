@@ -1,10 +1,3 @@
-fetch("https://api.countapi.xyz/hit/deneme-puan-hesaplayici.onrender.com/ziyaretci")
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("counter").innerText = data.value;
-        })
-        .catch(error => console.error("Sayaç yüklenirken hata oluştu:", error));
-
 function calculate() {
     // Net hesaplama
     document.querySelectorAll('.correct').forEach((input, index) => {
