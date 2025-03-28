@@ -1,4 +1,4 @@
- fetch("https://api.countapi.xyz/hit/deneme-puan-hesaplayici.onrender.com/ziyaretci")
+fetch("https://api.countapi.xyz/hit/deneme-puan-hesaplayici.onrender.com/ziyaretci")
         .then(response => response.json())
         .then(data => {
             document.getElementById("counter").innerText = data.value;
