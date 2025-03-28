@@ -17,7 +17,7 @@ function calculate() {
         totalScore += net * coefficient;
     });
 
-    document.getElementById('lgs-score').value = totalScore.toFixed(2);
+    document.getElementById('deneme-score').value = totalScore.toFixed(2);
 }
 
 function resetForm() {
